@@ -54,7 +54,7 @@ Through the execution of the program explained above, you obtain the following f
 
 |                     Convergence of $K^j$ updated by  Algorithm 1 (Fig. 3)                    |
 | :----------------------------------------------------------: |
-|  <img src=./figs/step1_KAC_St0p5_Ts0p06_ConvergenceK.png  width="450">   |
+|  ![Test Image 3](./figs/step1_KAC_St0p5_Ts0p06_ConvergenceK.png) |
 
 The raw result data are stored in the following file. 
 ```
