@@ -111,9 +111,8 @@ Journal_step2/compare_cost_after_step2.mat # A summary of the results of the ave
 ### Results (corresp. to Fig.4 and Table IV in the paper)
 Through the execution of the program explained above, you obtain the following figures that comprise Fig.4 in the paper. 
 
-|                    Average of the cost $J_{\rm fin}(k_{\rm fin})$ in each trial in Step 2 (main part of Fig. 4)     |                      Inset of Fig.4 |
+| Average of the cost $J_{\rm fin}(k_{\rm fin})$ in each trial in Step 2 (main part of Fig. 4)  |  Inset of Fig.4 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-
 |  <img src="./figs/step2_cost_fig_1000.png"  width="500">  |   <img src="./figs/step2_cost_fig_60.png"  width="500">   |
 
 
