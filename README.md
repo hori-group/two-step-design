@@ -135,6 +135,11 @@ Through the execution of the program explained above, you obtain the following f
 | :----------------------------------------------------------: |:----------------------------------------------------------: |
 
  <img src="./figs/pnd_St0p5_Ts0p06_p1000_beta0p0001_sigma0p1_epi4000_uAC.png"  width="300">  <img src="./figs/pnd_St0p5_Ts0p06_p1000_beta0p0001_sigma0p1_epi4000_uRL.png"  width="300">  
+ 
+ &nbsp;半角スペースと同じサイズの空白
+&ensp;半角スペースより少し広めの空白
+&emsp;半角スペースよりさらに広めの空白　全角スペースとほぼ同じ幅
+ 
 
 
 |                     Trajectory of control input (Fig. 6(a))  |               Trajectory of actual (saturated) torque input  (Fig. 6(b)) |
