@@ -114,7 +114,7 @@ Through the execution of the program explained above, you obtain the following f
 |                    Average of the cost $J_{\rm fin}(k_{\rm fin})$ in each trial in Step 2 (main part of Fig. 4)     |                      Inset of Fig.4 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 
-  <img src="./figs/step2_cost_fig_1000.png"  width="500">  |   <img src="./figs/step2_cost_fig_60.png"  width="500">   
+|  <img src="./figs/step2_cost_fig_1000.png"  width="500">  |   <img src="./figs/step2_cost_fig_60.png"  width="500">   |
 
 
 ### Evaluation of the control laws
