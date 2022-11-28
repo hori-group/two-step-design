@@ -128,7 +128,8 @@ Through the execution of the program explained above, you obtain the following f
 
 | Visualization of the control law resulted from KAC + RL (Proposed method) (Fig. 5) |　Visualization of $u^{\rm AC}$  (Fig. 10(a)) |                       Visualization of $u^{\rm RL}$  (Fig. 10(b)) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |:----------------------------------------------------------: |
-| <img src="./figs/pnd_St0p5_Ts0p06_p1000_Trajectory_ControlInput.png"  width="400">    |  <img src="./figs/pnd_St0p5_Ts0p06_p1000_beta0p0001_sigma0p1_epi4000_uAC.png"  width="400">   | <img src="./figs/pnd_St0p5_Ts0p06_p1000_beta0p0001_sigma0p1_epi4000_uRL.png"  width="400">  |
+
+| <img src="./figs/pnd_St0p5_Ts0p06_p1000_Trajectory_ControlInput.png"  width="500">    |  <img src="./figs/pnd_St0p5_Ts0p06_p1000_beta0p0001_sigma0p1_epi4000_uAC.png"  width="500">   | <img src="./figs/pnd_St0p5_Ts0p06_p1000_beta0p0001_sigma0p1_epi4000_uRL.png"  width="500">  |
 
 
 |                     Trajectory of control input (Fig. 6(a))  |               Trajectory of actual (saturated) torque input  (Fig. 6(b)) |
