@@ -180,7 +180,7 @@ Journal_hyparparameter/aggregation_K0RL.mat # Summary when designed using K0+RL
 Heatmaps summarizing the above results from (*hypr_heatmap)
 |       Percentage of successful learning (Fig. 8)           |        Percentage of improvement in performance (Fig. 9)   |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-|  <img src="./figs/heatmap_PoS.png"   width="500">   |  <img src="./figs/heatmap_PoI.png"  width="500">   |
+|  <img src="./figs/step1_KAC_St0p5_Ts0p06_ConvergenceK.png"   width="500">   |  <img src="./figs/heatmap_PoI.png"  width="500">   |
 
 \# Please check the comments in the source code for further details.
 
