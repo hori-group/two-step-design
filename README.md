@@ -52,7 +52,7 @@ run Journal_step1/step1_design_KAC.m
 ### Results (corresp. to Fig. 3 and Table II in the paper)
 Through the execution of the program explained above, you obtain the following figure that shows the convergence of $K^j$ to $K^{\star}$. 
 
-|      Convergence of K^j updated by  Algorithm 1 (Fig. 3)           |   
+|      Convergence of $K^j$ updated by  Algorithm 1 (Fig. 3)           |   
 | :----------------------------------------------------------: |
 |  <img src="./figs/step1_KAC_St0p5_Ts0p06_ConvergenceK.png"   width="400">   |  
 
