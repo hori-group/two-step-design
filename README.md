@@ -42,14 +42,14 @@ parameter_setting.m
 ```
 
 
-## 1. Step 1 of the proposed approach (Experiments reported in Subsection IV-B)
+## 1. Step 1 of the proposed approach (Experiments reported in Subsection 5.2.)
 ### Training and comparson of the linear auxiliary control law
 To design (train) the auxiliary LQR control law $K^{AC}$ by Algorithm 1, execute the program as follows. 
 ```
 run Journal_step1/step1_design_KAC.m
 ```
 
-### Results (corresp. to Fig. 3 and Table II in the paper)
+### Results (corresp. to Fig. 3 and Table 2 in the paper)
 Through the execution of the program explained above, you obtain the following figure that shows the convergence of $K^j$ to $K^{\star}$. 
 
 | Convergence of K^j updated by  Algorithm 1 (Fig. 3) |   
@@ -62,7 +62,7 @@ The raw result data are stored in the following file.
 step1_design_KAC.mat
 ```
 
-To calculate the average of the cost resulted with each controller reported in Table II of our paper, execute the program as follows. 
+To calculate the average of the cost resulted with each controller reported in Table 2 of our paper, execute the program as follows. 
 ```
 run Journal_step1/step1_compare_K.m
 ```
@@ -72,7 +72,7 @@ The raw result data are stored in the following file.
 step1_compare_K.mat 
 ```
 
-## 2. Step 2 of the proposed approach (Experiments reported in Subsection IV-C)
+## 2. Step 2 of the proposed approach (Experiments reported in Subsection 5.3.)
 
 ### Training and evaluation of the nonlinear control laws 
 To design (train) 3500 sets of nonlinear control laws, execute the program as follows. 
@@ -97,7 +97,7 @@ To plot the average of the cost $J_{\rm fin}(k_{\rm fin})$ in each trial in Step
 run Journal_step2/step2_multiple_run_plot.m # plot fig.4 (*plot_fig4)
 ```
 
-To get the average cost shown in Table IV of our paper, execute the program as follows. 
+To get the average cost shown in Table 4 of our paper, execute the program as follows. 
 ```
 run Journal_step2/compare_cost_after_step2.m # summarize data for *plot_fig4 (*step2_summarize)
 ```
@@ -108,7 +108,7 @@ Journal_step2/compare_cost_after_step2.mat # A summary of the results of the ave
 ```
 
 
-### Results (corresp. to Fig.4 and Table IV in the paper)
+### Results (corresp. to Fig.4 and Table 4 in the paper)
 Through the execution of the program explained above, you obtain the following figures that comprise Fig.4 in the paper. 
 
 | Average of the cost in each trial in Step 2 (main part of Fig. 4)  |  Inset of Fig.4 |
@@ -131,7 +131,7 @@ Through the execution of the program explained above, you obtain the following f
 | <img src="./figs/pnd_St0p5_Ts0p06_p1000_beta0p0001_sigma0p1_epi4000_uRLuAC.png"  width="500">  |
 
 
-| Visualization of $u^{\rm AC}$  (Fig. 10(a)) | Visualization of $u^{\rm RL}$  (Fig. 10(b)) |
+| Visualization of $u^{\rm AC}$  (Fig. B1(a)) | Visualization of $u^{\rm RL}$  (Fig. B1(b)) |
 | :----------------------------------------------------------: |:----------------------------------------------------------: |
 
  <img src="./figs/pnd_St0p5_Ts0p06_p1000_beta0p0001_sigma0p1_epi4000_uAC.png"  width="300">  <img src="./figs/pnd_St0p5_Ts0p06_p1000_beta0p0001_sigma0p1_epi4000_uRL.png"  width="300">  
@@ -142,7 +142,7 @@ Through the execution of the program explained above, you obtain the following f
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |  <img src="./figs/pnd_St0p5_Ts0p06_p1000_Trajectory_ControlInput.png"  width="500">   |  <img src="./figs/pnd_St0p5_Ts0p06_p1000_Trajectory_Input.png"  width="500">   |
 
-|                    Trajectory of angle (Fig.7(a))           |               Trajectory of angular velocity (Fig. 7(b)) |
+|                    Trajectory of angle (Fig.6(c))           |               Trajectory of angular velocity (Fig. 6(d)) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |  <img src="./figs/pnd_St0p5_Ts0p06_p1000_Trajectory_Angle.png"  width="500">   |  <img src="./figs/pnd_St0p5_Ts0p06_p1000_Trajectory_Velocity.png"  width="500">   |
 
@@ -154,7 +154,7 @@ Journal_step2/data_AC+RL_pnd6_St0p5_Ts0p06_p1000_beta0p0001_sigma0p1_epi4000_R10
 Journal_step2/data_ACalone_pnd6_St0p5_Ts0p06_p1000_epi4000_R10_trajectory_ver1_1.mat #  Used to plot trajectories from KAC alone
 ```
 
-## 3. Evaluation of the robustness against hyperparameter setting (Experiments reported in Section V)
+## 3. Evaluation of the robustness against hyperparameter setting (Experiments reported in Section 6)
 
 ### Training and evaluation of the control laws 
 To investigate hyperparameter dependencies in controller design, execute the program as follows. 
@@ -169,7 +169,7 @@ To summarize data calculated from the simulations above and make heatmaps, execu
 To change the method, select one "type" in the 17~19th line.
 ```
 run Journal_hyparparameter/aggregation_hyprs.m # summarize data (*hypr_data)
-run Journal_hyparparameter/plot_heatmap.m # plot heatmap (fig.8,9) (*hypr_heatmap)
+run Journal_hyparparameter/plot_heatmap.m # plot heatmap (fig.7) (*hypr_heatmap)
 ```
 
 The following class is used to execute the program as follows. 
@@ -177,7 +177,7 @@ The following class is used to execute the program as follows.
 Journal_hyparparameter/SummaryOfSimulationData.m # Class used to summarize data
 ```
 
-### Results (corresp. to Figs. 8 and 9 in the paper)
+### Results (corresp. to Figs. 7 in the paper)
 Summary of *hypr_data results
 ```
 Journal_hyparparameter/aggregation_ACRL.mat # Summary when designed using KAC+RL
@@ -186,7 +186,7 @@ Journal_hyparparameter/aggregation_K0RL.mat # Summary when designed using K0+RL
 ```
 
 Heatmaps summarizing the above results from (*hypr_heatmap)
-|       Percentage of successful learning (Fig. 8)           |        Percentage of improvement in performance (Fig. 9)   |
+|       Percentage of successful learning (Fig. 7(a))           |        Percentage of improvement in performance (Fig. 7(b))   |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |  <img src="./figs/heatmap_PoS.png"   width="500">   |  <img src="./figs/heatmap_PoI.png"  width="500">   |
 
