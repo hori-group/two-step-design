@@ -42,7 +42,7 @@ parameter_setting.m
 ```
 
 
-## 1. Step 1 of the proposed approach (Experiments reported in Subsection 5.2.)
+## 1. Step 1: design of auxiliary control law $K^{AC}$ (Experiments reported in Subsection 5.2.)
 ### Training and comparson of the linear auxiliary control law
 To design (train) the auxiliary LQR control law $K^{AC}$ by Algorithm 1, execute the program as follows. 
 ```
@@ -72,7 +72,7 @@ The raw result data are stored in the following file.
 step1_compare_K.mat 
 ```
 
-## 2. Step 2 of the proposed approach (Experiments reported in Subsection 5.3.)
+## 2. Step 2: design of nonlinear control law $\bm{\mu}$ (Experiments reported in Subsection 5.3.)
 
 ### Training and evaluation of the nonlinear control laws 
 To design (train) 3500 sets of nonlinear control laws, execute the program as follows. 
@@ -154,7 +154,7 @@ Journal_step2/data_AC+RL_pnd6_St0p5_Ts0p06_p1000_beta0p0001_sigma0p1_epi4000_R10
 Journal_step2/data_ACalone_pnd6_St0p5_Ts0p06_p1000_epi4000_R10_trajectory_ver1_1.mat #  Used to plot trajectories from KAC alone
 ```
 
-## 3. Evaluation of the robustness against hyperparameter setting (Experiments reported in Section 6)
+## 3. EFFICIENCY OF HYPERPARAMETER TUNING (Experiments reported in Section 6)
 
 ### Training and evaluation of the control laws 
 To investigate hyperparameter dependencies in controller design, execute the program as follows. 
