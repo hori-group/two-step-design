@@ -72,7 +72,7 @@ The raw result data are stored in the following file.
 step1_compare_K.mat 
 ```
 
-## 2. Step 2: design of nonlinear control law $\bm{\mu}$ (Experiments reported in Subsection 5.3.)
+## 2. Step 2: design of nonlinear control law $\mu$ (Experiments reported in Subsection 5.3.)
 
 ### Training and evaluation of the nonlinear control laws 
 To design (train) 3500 sets of nonlinear control laws, execute the program as follows. 
