@@ -123,7 +123,7 @@ run Journal_step2/step2_plot_trajectory.m # plot fig. 6,7
 run Journal_step2/step2_policy_plot.m # Visualize the controller resulted from KAC+RL = plot fig.5
 ```
 To use *step2_trajectory, select one "type" in the 14~15th line.
-### Results (corresp. to Figs.5, 10, 6, 7 in the paper)
+### Results (corresp. to Figs.5, 8, 6 in the paper)
 Through the execution of the program explained above, you obtain the following figures.
 
 | Visualization of the control law resulted from KAC + RL (Proposed method) (Fig. 5) |
