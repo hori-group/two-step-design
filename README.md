@@ -2,7 +2,7 @@
 
 This repository provides the official source code to reproduce the experimental results reported in the following study.
 
-Mei Minami, Yuka Masumoto, Yoshihiro Okawa, Tomotake Sasaki, and Yutaka Hori. [Two-step reinforcement learning for model-free redesign of nonlinear optimal regulator](https://arxiv.org/abs/2103.03808). arXiv preprint, arXiv:2103.03808v2, 2022.
+Mei Minami, Yuka Masumoto, Yoshihiro Okawa, Tomotake Sasaki, and Yutaka Hori. [Two-step reinforcement learning for model-free redesign of nonlinear optimal regulator](https://arxiv.org/abs/2103.03808). arXiv preprint, arXiv:2103.03808v3, 2023.
 
 # Requirements
 
