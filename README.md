@@ -2,7 +2,8 @@
 
 This repository provides the official source code to reproduce the experimental results reported in the following study.
 
-Mei Minami, Yuka Masumoto, Yoshihiro Okawa, Tomotake Sasaki, and Yutaka Hori. [Two-step reinforcement learning for model-free redesign of nonlinear optimal regulator](https://arxiv.org/abs/2103.03808). arXiv preprint, arXiv:2103.03808v3, 2023.
+Mei Minami, Yuka Masumoto, Yoshihiro Okawa, Tomotake Sasaki, and Yutaka Hori. [Two-step reinforcement learning for model-free redesign of nonlinear optimal regulator](https://www.tandfonline.com/doi/full/10.1080/18824889.2023.2278753). SICE Journal of Control, Measurement, and System Integration, Vol. 16, pp. 349-362, 2023.
+
 
 # Requirements
 
@@ -123,7 +124,7 @@ run Journal_step2/step2_plot_trajectory.m # plot fig. 6,7
 run Journal_step2/step2_policy_plot.m # Visualize the controller resulted from KAC+RL = plot fig.5
 ```
 To use *step2_trajectory, select one "type" in the 14~15th line.
-### Results (corresp. to Figs.5, B1, 6 in the paper)
+### Results (corresp. to Figs.5, A1, 6 in the paper)
 Through the execution of the program explained above, you obtain the following figures.
 
 | Visualization of the control law resulted from KAC + RL (Proposed method) (Fig. 5) |
@@ -131,7 +132,7 @@ Through the execution of the program explained above, you obtain the following f
 | <img src="./figs/pnd_St0p5_Ts0p06_p1000_beta0p0001_sigma0p1_epi4000_uRLuAC.png"  width="500">  |
 
 
-| Visualization of $u^{\rm AC}$  (Fig. B1(a)) | Visualization of $u^{\rm RL}$  (Fig. B1(b)) |
+| Visualization of $u^{\rm AC}$  (Fig. A1(a)) | Visualization of $u^{\rm RL}$  (Fig. A1(b)) |
 | :----------------------------------------------------------: |:----------------------------------------------------------: |
 
  <img src="./figs/pnd_St0p5_Ts0p06_p1000_beta0p0001_sigma0p1_epi4000_uAC.png"  width="300">  <img src="./figs/pnd_St0p5_Ts0p06_p1000_beta0p0001_sigma0p1_epi4000_uRL.png"  width="300">  
@@ -204,11 +205,18 @@ The source code contained in this repository was made by the following contribuo
 
 # BibTeX
 ```
-@misc{minami2022twostep,
-      author = {Minami, Mei and Masumoto, Yuka and Okawa, Yoshihiro and Sasaki, Tomotake and Hori, Yutaka},
-      title={Two-step reinforcement learning for model-free redesign of nonlinear optimal regulator}, 
-      howpublished={arXiv preprint, arXiv:2103.03808v2},
-      year={2022}
+@article{minami2023twostep,
+author = {Mei Minami, Yuka Masumoto, Yoshihiro Okawa, Tomotake Sasaki and Yutaka Hori},
+title = {Two-step reinforcement learning for model-free redesign of nonlinear optimal regulator},
+journal = {SICE Journal of Control, Measurement, and System Integration},
+volume = {16},
+number = {1},
+pages = {349-362},
+year = {2023},
+publisher = {Taylor & Francis},
+doi = {10.1080/18824889.2023.2278753},
+URL = {https://doi.org/10.1080/18824889.2023.2278753},
+eprint = {https://doi.org/10.1080/18824889.2023.2278753}
 }
 ```
 
