@@ -2,7 +2,7 @@
 
 This repository provides the official source code to reproduce the experimental results reported in the following study.
 
-Mei Minami, Yuka Masumoto, Yoshihiro Okawa, Tomotake Sasaki, and Yutaka Hori. [Two-step reinforcement learning for model-free redesign of nonlinear optimal regulator](https://www.tandfonline.com/doi/full/10.1080/18824889.2023.2278753). SICE Journal of Control, Measurement, and System Integration, Vol. 16, pp. 349-362, 2023.
+Mei Minami, Yuka Masumoto, Yoshihiro Okawa, Tomotake Sasaki, and Yutaka Hori. [Two-step reinforcement learning for model-free redesign of nonlinear optimal regulator](https://www.tandfonline.com/doi/full/10.1080/18824889.2023.2278753). SICE Journal of Control, Measurement, and System Integration, Vol. 16, No.1 pp. 349-362, 2023.
 
 
 # Requirements
@@ -178,7 +178,7 @@ The following class is used to execute the program as follows.
 Journal_hyparparameter/SummaryOfSimulationData.m # Class used to summarize data
 ```
 
-### Results (corresp. to Figs. 7 in the paper)
+### Results (corresp. to Fig. 7 in the paper)
 Summary of *hypr_data results
 ```
 Journal_hyparparameter/aggregation_ACRL.mat # Summary when designed using KAC+RL
@@ -206,7 +206,7 @@ The source code contained in this repository was made by the following contribuo
 # BibTeX
 ```
 @article{minami2023twostep,
-author = {Mei Minami, Yuka Masumoto, Yoshihiro Okawa, Tomotake Sasaki and Yutaka Hori},
+author = {Minami, Mei and Masumoto, Yuka and Okawa, Yoshihiro and Sasaki, Tomotake and Hori, Yutaka},
 title = {Two-step reinforcement learning for model-free redesign of nonlinear optimal regulator},
 journal = {SICE Journal of Control, Measurement, and System Integration},
 volume = {16},
