@@ -2,7 +2,7 @@
 
 This repository provides the official source code to reproduce the experimental results reported in the following study.
 
-Mei Minami, Yuka Masumoto, Yoshihiro Okawa, Tomotake Sasaki, and Yutaka Hori. [Two-step reinforcement learning for model-free redesign of nonlinear optimal regulator](https://www.tandfonline.com/doi/full/10.1080/18824889.2023.2278753). SICE Journal of Control, Measurement, and System Integration, Vol. 16, No.1 pp. 349-362, 2023.
+Mei Minami, Yuka Masumoto, Yoshihiro Okawa, Tomotake Sasaki, and Yutaka Hori. Two-step reinforcement learning for model-free redesign of nonlinear optimal regulator. SICE Journal of Control, Measurement, and System Integration, Vol. 16, No.1, pp. 349-362, 2023. \[[Paper (Open Access)](https://www.tandfonline.com/doi/full/10.1080/18824889.2023.2278753)\] \[[Errata](Errata_two_step_design.pdf)\]
 
 
 # Requirements
